@@ -10,7 +10,7 @@ import com.google.android.gms.common.api.internal.ApiKey
 import kotlinx.coroutines.*
 
 class AppViewModel constructor(
-    private val mainRepository: MainRepository
+//    private val mainRepository: MainRepository
 ): ViewModel() {
     private val _errorMessage: MutableLiveData<String?> = MutableLiveData()
     var errorMessage: LiveData<String?> = _errorMessage
@@ -32,19 +32,19 @@ class AppViewModel constructor(
         }
     }
 
-    fun getAllNews(topic: String, apiKey: String) {
-        job = viewModelScope.launch(Dispatchers.IO) {
-            val response = mainRepository.getAllNews(topic, apiKey)
-            withContext(Dispatchers.Main) {
-                if (response.isSuccessful) {
-                    newsList.postValue(response.body())
-                    loading.value = false
-                } else {
-                    onError("Error : ${response.message()} ")
-                }
-            }
-        }
-    }
+//    fun getAllNews(topic: String, apiKey: String) {
+//        job = viewModelScope.launch(Dispatchers.IO) {
+//            val response = mainRepository.getAllNews(topic, apiKey)
+//            withContext(Dispatchers.Main) {
+//                if (response.isSuccessful) {
+//                    newsList.postValue(response.body())
+//                    loading.value = false
+//                } else {
+//                    onError("Error : ${response.message()} ")
+//                }
+//            }
+//        }
+//    }
 
     private fun onError(message: String) {
         error.value = message
