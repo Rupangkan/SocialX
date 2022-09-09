@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">SocialX</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="x">X</string>
+    <string name="social">Social</string>
+    <string name="email_id">Email ID</string>
+    <string name="sign_in_account">SignIn into your</string>
+    <string name="email_hint">johndoe@gmail.com</string>
+    <string name="password_hint">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="register_text">Register Now</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_an">Create an</string>
+    <string name="account">Account</string>
+    <string name="name_hint">John Doe</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="login_with">Login with</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="contact_no">Contact no</string>
+    <string name="terms_and_condition"><u>terms and condition</u></string>
+    <string name="i_agree_with">I agree with</string>
+    <string name="sign_up">Sign in!</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="phone_hint">9876543210</string>
+    <string name="in">IN</string>
+    <string name="request_token">703060678819-8h10sgbgldeafsiafhpj06pdro6l30mk.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1112559492945722</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">2013ff70151d18a813162d3179c54530</string>
+    <string name="_2_hours_ago_bbc_news">2 hours ago <b>BBC News</b></string>
+    <string name="apple">Apple admits Slowing down older iPhones</string>
+    <string name="card_description">Customers have long suspected iPhones slow down over time. Now, Apple has confirmed some models do</string>
+    <string name="new_api_key">2143d6d2544043cc9f804f783ee7ea35</string>
+
+</resources>
