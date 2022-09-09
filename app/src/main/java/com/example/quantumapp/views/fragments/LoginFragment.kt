@@ -1,4 +1,4 @@
-package com.example.quantumapp.views
+package com.example.quantumapp.views.fragments
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,9 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
 import com.example.quantumapp.databinding.FragmentLoginBinding
-import com.example.quantumapp.viewmodels.AppViewModel
+import com.example.quantumapp.views.activities.ListActivity
 import com.facebook.*
 import com.facebook.login.LoginManager
 import com.facebook.login.LoginResult

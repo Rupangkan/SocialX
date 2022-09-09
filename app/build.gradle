@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'com.google.gms.google-services'
     id 'androidx.navigation.safeargs.kotlin'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -52,6 +53,7 @@ dependencies {
 
     // delegate viewmodel
     implementation 'androidx.fragment:fragment-ktx:1.5.2'
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
 
     // Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
@@ -61,7 +63,6 @@ dependencies {
     // LiveData
     implementation "androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1"
-
 
     // viewModelScope
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"

@@ -1,8 +1,9 @@
-package com.example.quantumapp.views
+package com.example.quantumapp.views.fragments
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -13,6 +14,7 @@ import com.example.quantumapp.common.Constants.DOCUMENT_PATH
 import com.example.quantumapp.common.Constants.USER_COLLECTION
 import com.example.quantumapp.databinding.FragmentSignInBinding
 import com.example.quantumapp.viewmodels.AppViewModel
+import com.example.quantumapp.views.activities.ListActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
@@ -26,7 +28,7 @@ class SignInFragment : Fragment() {
     private lateinit var auth: FirebaseAuth
     private lateinit var firestore: DocumentReference
     private lateinit var hashMap: HashMap<String, String>
-    private val appViewModel: AppViewModel by viewModels()
+    private val appViewModel: AppViewModel by activityViewModels()
     private val TAG = "ReposeSignInFragment"
 
     override fun onCreate(savedInstanceState: Bundle?) {

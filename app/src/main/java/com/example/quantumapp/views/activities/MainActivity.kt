@@ -1,12 +1,11 @@
-package com.example.quantumapp.views
+package com.example.quantumapp.views.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
-import com.example.quantumapp.R
 import com.example.quantumapp.databinding.ActivityMainBinding
+import com.example.quantumapp.views.fragments.LoginFragment
+import com.example.quantumapp.views.fragments.SignInFragment
 import com.example.quantumapp.views.adapters.ViewPagerAdapter
-import com.facebook.FacebookSdk
 
 class MainActivity : AppCompatActivity() {
 

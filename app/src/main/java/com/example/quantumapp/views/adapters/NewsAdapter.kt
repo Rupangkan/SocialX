@@ -6,8 +6,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.quantumapp.common.Constants.RECYCLERVIEW_SIZE
 import com.example.quantumapp.databinding.SingleCardViewBinding
+import com.example.quantumapp.models.News
 
-class NewsAdapter: RecyclerView.Adapter<NewsAdapter.ViewHolder>() {
+class NewsAdapter(): RecyclerView.Adapter<NewsAdapter.ViewHolder>() {
 
     class ViewHolder(binding: SingleCardViewBinding): RecyclerView.ViewHolder(binding.root) {
         // Create the View Holder here
